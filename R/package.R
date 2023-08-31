@@ -8,7 +8,7 @@
 #'
 #' @docType package
 #' @name simplegraph
-NULL
+"_PACKAGE"
 
 #' Create a graph
 #'
@@ -89,7 +89,7 @@ graph <- function(x, ...)
 #' Check the validity of a graph data structure
 #'
 #' This is mainly for internal checks, but occasionally it
-#' might also useful externally.
+#' might be useful externally.
 #'
 #' @param x Graph.
 #' @param ... Extra arguments are curently ignored.
